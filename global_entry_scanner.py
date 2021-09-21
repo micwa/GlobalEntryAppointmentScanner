@@ -50,9 +50,9 @@ class Scanner(object):
         for t in SKIP_TIMES:
             self.notified[t] = True
 
-    def _scan_once(self):
+    def _get_slots(self):
         """
-        Checks for the next available appointment slot and returns non-null if
+        Checks for the next available appointment slot(s) and returns non-null if
         there are slots before EARLIER_THAN.
         
         Returns:
@@ -145,7 +145,10 @@ class Scanner(object):
                 self.notified[key] = True
 
     def scan_once(self):
-        times = self._scan_once()
+        """
+        Scan once for an earlier appointment slot and notify if applicable.
+        """
+        times = self._get_slots()
         if times:
             self._notify(times)
 
