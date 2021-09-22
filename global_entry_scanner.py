@@ -29,7 +29,7 @@ SCAN_INTERVAL_SECS = 60     # Scan interval
 NO_REPEAT = True            # If true, notify only once per appointment slot
 SKIP_TIMES = [              # Do not notify for these times; must be in DATE_FORMAT
     "2021-12-25T08:00",
-    "2021-12-25T09:00",
+    "2021-12-25T13:00",
 ]
 
 SMTP_SERVER = "smtp.gmail.com"
