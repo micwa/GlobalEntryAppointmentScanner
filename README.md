@@ -8,7 +8,7 @@ Scan for appointment slots for Global Entry interviews. Global Entry is US gover
 
 * Python 3
 * Email address
-    * If using gmail, turn on [less secure apps](https://support.google.com/accounts/answer/6010255). Also visit https://accounts.google.com/DisplayUnlockCaptcha if google prevents login
+    * If using gmail, turn on [less secure apps](https://support.google.com/accounts/answer/6010255). Also visit https://accounts.google.com/DisplayUnlockCaptcha if google prevents login.
 * (optional) Phone number
 
 ## How to run
