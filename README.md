@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Scan for appointment slots for Global Entry interviews. Global Entry is US government Trusted Traveller Program.
+Scan for appointment slots for Global Entry interviews. Global Entry is a US government Trusted Traveller Program.
 
 ## Requirements
 

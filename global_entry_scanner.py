@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-Polls the TTP global entry appointment API for the next available appointments,
+Polls the TTP global entry appointment API for the next available appointment(s),
 and notifies if there is an earlier appointment.
 
 Appointment API endpoint: https://ttp.cbp.dhs.gov/schedulerapi/slots
